@@ -1,0 +1,24 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Maryam Mahmood",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "portfinder": "^1.0.32"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
